@@ -1,0 +1,11 @@
+﻿<Application x:Class="XamlBrewer.UWP.WinML.Sample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:XamlBrewer.UWP.WinML.Sample"
+             RequestedTheme="Light">
+    <Application.Resources>
+        <Color x:Key="SystemAccentColor">#AE6DFF</Color>
+        <SolidColorBrush x:Key="SystemAccentColorBrush"
+                         Color="{StaticResource SystemAccentColor}" />
+    </Application.Resources>
+</Application>
